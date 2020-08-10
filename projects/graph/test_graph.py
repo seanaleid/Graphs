@@ -38,30 +38,30 @@ class Test(unittest.TestCase):
         }
         self.assertDictEqual(self.graph.vertices, vertices)
 
-    # def test_bft(self):
-    #     bft = [
-    #         "1\n2\n3\n4\n5\n6\n7\n",
-    #         "1\n2\n3\n4\n5\n7\n6\n",
-    #         "1\n2\n3\n4\n6\n7\n5\n",
-    #         "1\n2\n3\n4\n6\n5\n7\n",
-    #         "1\n2\n3\n4\n7\n6\n5\n",
-    #         "1\n2\n3\n4\n7\n5\n6\n",
-    #         "1\n2\n4\n3\n5\n6\n7\n",
-    #         "1\n2\n4\n3\n5\n7\n6\n",
-    #         "1\n2\n4\n3\n6\n7\n5\n",
-    #         "1\n2\n4\n3\n6\n5\n7\n",
-    #         "1\n2\n4\n3\n7\n6\n5\n",
-    #         "1\n2\n4\n3\n7\n5\n6\n"
-    #     ]
+    def test_bft(self):
+        bft = [
+            "1\n2\n3\n4\n5\n6\n7\n",
+            "1\n2\n3\n4\n5\n7\n6\n",
+            "1\n2\n3\n4\n6\n7\n5\n",
+            "1\n2\n3\n4\n6\n5\n7\n",
+            "1\n2\n3\n4\n7\n6\n5\n",
+            "1\n2\n3\n4\n7\n5\n6\n",
+            "1\n2\n4\n3\n5\n6\n7\n",
+            "1\n2\n4\n3\n5\n7\n6\n",
+            "1\n2\n4\n3\n6\n7\n5\n",
+            "1\n2\n4\n3\n6\n5\n7\n",
+            "1\n2\n4\n3\n7\n6\n5\n",
+            "1\n2\n4\n3\n7\n5\n6\n"
+        ]
 
-    #     stdout_ = sys.stdout
-    #     sys.stdout = io.StringIO()
-    #     self.graph.bft(1)
-    #     output = sys.stdout.getvalue()
+        stdout_ = sys.stdout
+        sys.stdout = io.StringIO()
+        self.graph.bft(1)
+        output = sys.stdout.getvalue()
 
-    #     self.assertIn(output, bft)
+        self.assertIn(output, bft)
 
-    #     sys.stdout = stdout_  # Restore stdout
+        sys.stdout = stdout_  # Restore stdout
 
     # def test_dft(self):
     #     dft = [

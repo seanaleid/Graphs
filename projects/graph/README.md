@@ -3,7 +3,7 @@
 This is a multi-stage project to implement a basic graph class and traversals.
 
 
-## Part 1: Graph Class
+## Part 1: Graph Class ✅
 
 In the file `graph.py`, implement a `Graph` class that supports the API in the example below. In particular, this means there should be a field `vertices` that
 contains a dictionary mapping vertex labels to edges. For example:
@@ -45,7 +45,7 @@ to your graph to ensure that edges to nonexistent vertices are rejected.
 graph.add_edge('0', '4')  # No '4' vertex, should raise an Exception!
 ```
 
-## Part 2: Implement Breadth-First Traversal
+## Part 2: Implement Breadth-First Traversal ✅
 
 Write a function within your Graph class that takes takes a starting node as an argument, then performs BFT. Your function should print the resulting nodes in the order they were visited. Note that there are multiple valid paths that may be printed.
 
