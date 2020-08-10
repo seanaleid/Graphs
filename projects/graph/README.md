@@ -53,7 +53,7 @@ Write a function within your Graph class that takes takes a starting node as an 
 
 Write a function within your Graph class that takes takes a starting node as an argument, then performs DFT. Your function should print the resulting nodes in the order they were visited. Note that there are multiple valid paths that may be printed.
 
-## Part 4: Implement Depth-First Traversal using Recursion
+## Part 4: Implement Depth-First Traversal using Recursion ✅
 
 Write a function within your Graph class that takes takes a starting node as an argument, then performs DFT using recursion. Your function should print the resulting nodes in the order they were visited. Note that there are multiple valid paths that may be printed.
 
