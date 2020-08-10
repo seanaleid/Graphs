@@ -97,9 +97,10 @@ class Test(unittest.TestCase):
 
         sys.stdout = stdout_  # Restore stdout
 
-    # def test_bfs(self):
-    #     bfs = [1, 2, 4, 6]
-    #     self.assertListEqual(self.graph.bfs(1, 6), bfs)
+    def test_bfs(self):
+        bfs = [1, 2, 4, 6]
+        print(self.graph.bfs(1,6))
+        self.assertListEqual(self.graph.bfs(1, 6), bfs)
 
     # def test_dfs(self):
     #     dfs = [
