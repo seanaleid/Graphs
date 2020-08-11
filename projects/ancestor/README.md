@@ -46,3 +46,7 @@ Clarifications:
 * IDs will always be positive integers.
 * A parent may have any number of children.
 
+# U --> Want the oldest ancestor, if two want the smaller integer. 
+# P --> DFT, to go the "deepest" and return that int, if not possible to go any deeper, return -1
+# E -->
+# R -->
